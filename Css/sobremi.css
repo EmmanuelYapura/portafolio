@@ -1,0 +1,52 @@
+.container-sobremi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.img-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.texto-sobremi {
+  max-width: 700px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container-sobremi {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .texto-sobremi p {
+    text-align: left;
+    margin: 0.5rem 0;
+  }
+
+  .img-perfil {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-sobremi {
+    gap: 2rem;
+    font-size: 1.3rem;
+    padding: 2rem 0;
+  }
+
+  .img-perfil {
+    width: 300px;
+    height: 300px;
+  }
+
+  .texto-sobremi p {
+    margin: 1.5rem 0;
+  }
+}

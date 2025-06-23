@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Emmanuel yapura" />
+    <meta
+      name="keywords"
+      content="Portafolio, desarrollador web, emmanuel yapura"
+    />
+    <meta name="author" content="Emmanuel Yapura" />
+    <title>Portafolio web</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+  </head>
+  <body>
+    <!-- cabecera del documento web, dentro de ella va info relevante para los motores de busqueda -->
+    <header>
+      <!-- titulo -->
+      <h1 class="titulo">Emmanuel Yapura</h1>
+      <!-- barra de navegacion -->
+      <nav>
+        <ul class="navigation">
+          <li><a href="#sobremi">Sobre mi</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#contacto">Contactame</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="sobremi">
+        <article class="container-sobremi">
+          <img
+            class="img-perfil"
+            src="./Assets/foto-cv.jpg"
+            alt="fotografia emmanuel yapura"
+          />
+          <div class="texto-sobremi">
+            <p>
+              Soy desarrollador enfocado en backend y automatización, con
+              experiencia en Python, desarrollo de APIs y técnicas de web
+              scraping. Disfruto crear soluciones que automatizan tareas y
+              conectan servicios de forma eficiente.
+            </p>
+            <p>
+              Empecé con el desarrollo web aprendiendo HTML, CSS y JavaScript, y
+              luego profundicé en herramientas como FastAPI y Selenium.
+              Actualmente curso la carrera de Lic. en Análisis de Sistemas, y
+              busco integrarme a un equipo donde pueda crecer profesionalmente y
+              seguir aprendiendo de forma constante.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="proyectos" class="proyectos">
+        <article class="container-proyectos">
+          <h2>Mis proyectos</h2>
+          <ul class="items-proyecto">
+            <li class="item-proyecto">
+              <img
+                src="./Assets/api-pelis.png"
+                alt="img-proyecto"
+                class="img-proyecto"
+              />
+              <div class="div-info">
+                <a href="https://apipeliculastmdb.netlify.app/" target="_blank"
+                  >App de peliculas(TMDB API)</a
+                >
+                <p>
+                  Aplicación web desarrollada con JavaScript que permite buscar
+                  películas, ver detalles, y explorar tendencias utilizando la
+                  API de The Movie Database. La interfaz muestra información
+                  como carátula, título, sinopsis y puntuación de cada película.
+                </p>
+                <p>
+                  <span class="tag">HTML, CSS, JavaScript</span>
+                  <span class="tag"> Fetch API</span>
+                  <span class="tag">TMDB API</span>
+                </p>
+              </div>
+            </li>
+            <li class="item-proyecto">
+              <img
+                src="./Assets/api-pokemons.png"
+                alt="img-proyecto"
+                class="img-proyecto"
+              />
+              <div class="div-info">
+                <a href="https://pokedexappreact.netlify.app/" target="_blank"
+                  >Pokedex React</a
+                >
+                <p>
+                  Aplicación interactiva creada con React que consume la PokeAPI
+                  para mostrar una lista de Pokémon. Permite ver su imagen,
+                  nombre, tipo y otra información relevante de manera organizada
+                  e intuitiva.
+                </p>
+                <p>
+                  <span class="tag">React</span>
+                  <span class="tag"> CSS</span>
+                  <span class="tag">PokeAPI</span>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="experiencia" class="experiencia">
+        <article class="container-experiencia">
+          <h2>Experiencia laboral</h2>
+          <div class="items-exp">
+            <ul class="ul-exp">
+              <li class="li-exp">
+                <h3 class="h-exp">Automatizacion de tareas</h3>
+                <h4 class="h-exp">Nov 03-11-18 / Oct 21-10-21</h4>
+                <p class="p-exp">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Earum eum nostrum sunt neque veritatis, modi in commodi
+                  ducimus excepturi nisi. Esse accusantium neque provident
+                  perspiciatis non fugit, facilis sapiente sit?
+                </p>
+              </li>
+              <li class="li-exp">
+                <h3 class="h-exp">Analisis de datos</h3>
+                <h4 class="h-exp">Dic 23-12-22 / Sep 10-10-24</h4>
+                <p class="p-exp">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Earum eum nostrum sunt neque veritatis, modi in commodi
+                  ducimus excepturi nisi. Esse accusantium neque provident
+                  perspiciatis non fugit, facilis sapiente sit?
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <section id="estudios" class="estudios">
+        <article class="container-estudios">
+          <h2>Mis estudios</h2>
+          <div class="items-estudio">
+            <ul>
+              <li class="item-estudio">
+                <div class="encabezado">
+                  <h3>Programa Digit@lers Telecom</h3>
+                  <p>2021</p>
+                </div>
+                <p>Desarrollador FullStack con Node JS</p>
+                <a
+                  class="link-curso"
+                  href="https://institucional.telecom.com.ar/digitalers"
+                  target="_blank"
+                  >+info sobre el programa</a
+                >
+              </li>
+              <li class="item-estudio">
+                <div class="encabezado">
+                  <h3>Programa Codo a Codo 4.0</h3>
+                  <p>2021</p>
+                </div>
+                <p>FullStack - Desarrollo Web</p>
+                <a
+                  class="link-curso"
+                  href="https://buenosaires.gob.ar/noticias/inscribite-codo-codo"
+                  target="_blank"
+                  >+info sobre el programa</a
+                >
+              </li>
+              <li class="item-estudio">
+                <div class="encabezado">
+                  <h3>Programa Codo a Codo 4.0</h3>
+                  <p>2023</p>
+                </div>
+                <p>React JS</p>
+                <a
+                  class="link-curso"
+                  href="https://buenosaires.gob.ar/noticias/inscribite-codo-codo"
+                  target="_blank"
+                  >+info sobre el programa</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li class="item-estudio">
+                <div class="encabezado">
+                  <h3>Curso Python Basico</h3>
+                  <p>2024</p>
+                </div>
+                <p>Instituto IITA - Sede Centro, Salta - Presencial</p>
+                <a
+                  class="link-curso"
+                  href="https://iita.com.ar/"
+                  target="_blank"
+                  >+info sobre el programa</a
+                >
+              </li>
+              <li class="item-estudio">
+                <div class="encabezado">
+                  <h3>Curso Python Avanzado</h3>
+                  <p>2025</p>
+                </div>
+                <p>Instituto IITA - Sede Centro, Salta - Virtual</p>
+                <a
+                  class="link-curso"
+                  href="https://iita.com.ar/"
+                  target="_blank"
+                  >+info sobre el programa</a
+                >
+              </li>
+              <li class="item-estudio">
+                <div class="encabezado">
+                  <h3>Lic. en Analisis de Sistemas</h3>
+                  <p>En curso</p>
+                </div>
+                <p>UTN - Facultad Regional San Rafael, Mendoza, Argentina</p>
+                <a
+                  class="link-curso"
+                  href="https://www.frsr.utn.edu.ar/"
+                  target="_blank"
+                  >+info sobre el programa</a
+                >
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer id="contacto" class="contacto">
+      <article class="container-contacto">
+        <h2>Contacto</h2>
+        <div class="container-form">
+          <h3>
+            Puedes enviarme un mensaje si quieres, no es necesario acceso con
+            google
+          </h3>
+          <iframe
+            src="https://forms.gle/stFQGsVcvD1hQUFYA"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            style="margin: 0 auto"
+            >Cargando…</iframe
+          >
+        </div>
+        <div class="info-contacto">
+          <div class="icons-contacto">
+            <a
+              href="https://github.com/EmmanuelYapura"
+              target="_blank"
+              aria-label="github"
+            >
+              <svg
+                fill="#000000"
+                viewBox="0 0 32 32"
+                id="icon"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill-rule: evenodd;
+                      }
+                      .cls-2 {
+                        fill: none;
+                      }
+                    </style>
+                  </defs>
+                  <title>logo--github</title>
+                  <path
+                    class="cls-1"
+                    d="M16,2a14,14,0,0,0-4.43,27.28c.7.13,1-.3,1-.67s0-1.21,0-2.38c-3.89.84-4.71-1.88-4.71-1.88A3.71,3.71,0,0,0,6.24,22.3c-1.27-.86.1-.85.1-.85A2.94,2.94,0,0,1,8.48,22.9a3,3,0,0,0,4.08,1.16,2.93,2.93,0,0,1,.88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4,5.4,0,0,1,1.44-3.76,5,5,0,0,1,.14-3.7s1.17-.38,3.85,1.43a13.3,13.3,0,0,1,7,0c2.67-1.81,3.84-1.43,3.84-1.43a5,5,0,0,1,.14,3.7,5.4,5.4,0,0,1,1.44,3.76c0,5.38-3.27,6.56-6.39,6.91a3.33,3.33,0,0,1,.95,2.59c0,1.87,0,3.38,0,3.84s.25.81,1,.67A14,14,0,0,0,16,2Z"
+                  ></path>
+                  <rect
+                    id="_Transparent_Rectangle_"
+                    data-name="<Transparent Rectangle>"
+                    class="cls-2"
+                    width="32"
+                    height="32"
+                  ></rect>
+                </g>
+              </svg>
+            </a>
+            <p>Perfil github</p>
+          </div>
+          <div class="icons-contacto">
+            <svg
+              fill="#000000"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 512 512"
+              xml:space="preserve"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <g id="7935ec95c421cee6d86eb22ecd11f972">
+                  <path
+                    style="
+                      display: inline;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    d="M511.5,446.753V65.247H0.5v381.506H511.5L511.5,446.753 L511.5,446.753z M438.245,368.552v74.224H79.53v-70.247h0.615l1.816-0.605l134.664-108.435l40.74,34.519l36.176-31.78 L438.245,368.552L438.245,368.552L438.245,368.552z M438.245,355.428l-137.114-95.917l137.114-118.819V355.428L438.245,355.428 L438.245,355.428z M415.453,69.215L396.898,86.93l-8.811,8.569l-8.205,8.532l-8.514,7.944l-7.898,7.945l-7.6,7.33l-7.004,7.33 l-7.294,6.725l-6.688,6.725l-12.462,12.519l-11.867,11.298l-5.457,5.197l-4.871,5.188l-5.16,4.285l-4.574,4.266l-8.195,7.954 l-3.959,3.354l-3.344,3.371l-3.344,2.72l-2.748,3.074l-5.16,4.284l-2.123,1.509l-1.527,1.845l-1.816,0.912l-1.221,1.229 l-1.518,1.211L101.102,68.609L415.453,69.215L415.453,69.215L415.453,69.215z M208.727,256.764L79.53,360.001l0.298-212.893 L208.727,256.764L208.727,256.764L208.727,256.764z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <p>eyapura96@gmail.com</p>
+          </div>
+          <div class="icons-contacto">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M14.05 6C15.0268 6.19057 15.9244 6.66826 16.6281 7.37194C17.3318 8.07561 17.8095 8.97326 18 9.95M14.05 2C16.0793 2.22544 17.9716 3.13417 19.4163 4.57701C20.8609 6.01984 21.7721 7.91101 22 9.94M18.5 21C9.93959 21 3 14.0604 3 5.5C3 5.11378 3.01413 4.73086 3.04189 4.35173C3.07375 3.91662 3.08968 3.69907 3.2037 3.50103C3.29814 3.33701 3.4655 3.18146 3.63598 3.09925C3.84181 3 4.08188 3 4.56201 3H7.37932C7.78308 3 7.98496 3 8.15802 3.06645C8.31089 3.12515 8.44701 3.22049 8.55442 3.3441C8.67601 3.48403 8.745 3.67376 8.88299 4.05321L10.0491 7.26005C10.2096 7.70153 10.2899 7.92227 10.2763 8.1317C10.2643 8.31637 10.2012 8.49408 10.0942 8.64506C9.97286 8.81628 9.77145 8.93713 9.36863 9.17882L8 10C9.2019 12.6489 11.3501 14.7999 14 16L14.8212 14.6314C15.0629 14.2285 15.1837 14.0271 15.3549 13.9058C15.5059 13.7988 15.6836 13.7357 15.8683 13.7237C16.0777 13.7101 16.2985 13.7904 16.74 13.9509L19.9468 15.117C20.3262 15.255 20.516 15.324 20.6559 15.4456C20.7795 15.553 20.8749 15.6891 20.9335 15.842C21 16.015 21 16.2169 21 16.6207V19.438C21 19.9181 21 20.1582 20.9007 20.364C20.8185 20.5345 20.663 20.7019 20.499 20.7963C20.3009 20.9103 20.0834 20.9262 19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+            <p>+54 9 11 3661-2868</p>
+          </div>
+          <div class="icons-contacto">
+            <a
+              href="https://www.linkedin.com/in/emmanuelyapura/"
+              target="_blank"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+                    fill="#0F0F0F"
+                  ></path>
+                  <path
+                    d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+                    fill="#0F0F0F"
+                  ></path>
+                  <path
+                    d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+                    fill="#0F0F0F"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                    fill="#0F0F0F"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+            <p>Perfil linkedIn</p>
+          </div>
+        </div>
+        <strong>© 2025 Emmanuel Yapura. Todos los derechos reservados.</strong>
+      </article>
+    </footer>
+  </body>
+</html>

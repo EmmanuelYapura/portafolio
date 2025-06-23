@@ -1,0 +1,54 @@
+.container-estudios h2{
+  color: var(--azul-fondo);
+}
+
+.items-estudio {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item-estudio {
+  list-style: none;
+  background-color: var(--blanco);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.link-curso {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--azul-claro);
+  text-decoration: none;
+}
+
+.link-curso:hover {
+  color: #3399ff;
+}
+
+@media (min-width: 768px) {
+  .items-estudio {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item-estudio {
+    min-width: 450px;
+  }
+}
+
+@media (min-width: 1024px){ 
+  .items-estudio {
+    gap: 2rem;
+  }
+}
